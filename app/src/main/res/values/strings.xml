@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CourseEvents</string>
+    <string name="name">Name</string>
+    <string name="course_name">Course Name</string>
+    <string name="course_day">Course Day</string>
+    <string name="course_start_time">Course Start Time</string>
+    <string name="separator">--</string>
+    <string name="course_end_time">Course End Time</string>
+    <string name="create_course">Create Course</string>
+    <string name="event_name">Event Name</string>
+    <string name="event_date">Event Date</string>
+    <string name="event_time">Event Time</string>
+    <string name="create_event">Create Event</string>
+    <string name="empty_course">your course \n is still empty</string>
+    <string name="empty_event">this course event \n is still empty</string>
+    <string name="email">user@email.com</string>
+    <string name="log_out">Log Out</string>
+    <string name="delete_event">Delete Event</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="bottom_sheet_filter_title">Sort and Filter Course By:</string>
+    <string name="name_a_z">Name A-Z</string>
+    <string name="name_z_a">Name Z-A</string>
+    <string name="day_ascending">Day Ascending</string>
+    <string name="day_descending">Day Descending</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+</resources>

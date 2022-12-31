@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bottom_sheet_filter_title"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rgFilter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbDayAsc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/day_ascending"/>
+
+        <RadioButton
+            android:id="@+id/rbDayDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/day_descending"/>
+
+        <RadioButton
+            android:id="@+id/rbNameAZ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name_a_z" />
+
+        <RadioButton
+            android:id="@+id/rbNameZA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name_z_a"/>
+
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

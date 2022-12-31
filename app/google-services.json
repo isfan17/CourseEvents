@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "806505513319",
+    "project_id": "courseevents-57691",
+    "storage_bucket": "courseevents-57691.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806505513319:android:fddfac7882cf3116e22fc2",
+        "android_client_info": {
+          "package_name": "com.example.courseevents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806505513319-ot8ju4loca81etmfkofeld205osg213n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrefvNuqHRL3xe3ZJQaxyCxLUgbK4obLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806505513319-ot8ju4loca81etmfkofeld205osg213n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
